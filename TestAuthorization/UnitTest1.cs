@@ -48,5 +48,10 @@ namespace TestAuthorization
 
             Assert.Pass();
         }
+        [TearDown]
+        public void TearDown()
+        {
+            //driver.Quit();
+        }
     }
 }
