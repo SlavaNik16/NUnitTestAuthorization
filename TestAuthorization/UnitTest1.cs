@@ -4,14 +4,14 @@ namespace TestAuthorization
     public class Tests
     {
         private IWebDriver driver;
-        private readonly By _singInButton = By.XPath("//span[text()='Войти']");
+        private readonly By _singInButton = By.XPath("//span[text()='Г‚Г®Г©ГІГЁ']");
         private readonly By _singInButtonAuth = By.XPath("//button[@data-name='ContinueAuthBtn']");
-        private readonly By _AnotherWayButton = By.XPath("//span[text()='Другим способом']");
+        private readonly By _AnotherWayButton = By.XPath("//span[text()='Г„Г°ГіГЈГЁГ¬ Г±ГЇГ®Г±Г®ГЎГ®Г¬']");
         private readonly By _AuthInputButton = By.XPath("//input[@name='username']");
         private readonly By _PassInputButton = By.XPath("//input[@name='password']");
-        private readonly By _ContinueButton = By.XPath("//span[text()='Продолжить']");
-        private const string _login = "vladimir-andreev-2013@yandex.ru";
-        private const string _password = "Test_Cian_2022";
+        private readonly By _ContinueButton = By.XPath("//span[text()='ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј']");
+        private const string _login = "login";
+        private const string _password = "password_1";
 
         [SetUp]
         public void Setup()
